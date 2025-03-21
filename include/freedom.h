@@ -11,7 +11,7 @@
 #define GIT_COMMIT_HASH Unknown
 #endif // GIT_COMMIT_HASH
 
-#define FR_VERSION "v0.95 DEV [" STR(GIT_COMMIT_HASH) "]"
+#define FR_VERSION "1"]"
 
 extern HWND g_hwnd;
 extern HMODULE g_module;
