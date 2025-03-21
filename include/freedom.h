@@ -7,11 +7,11 @@
 #define STR_HELPER(x) #x
 #define STR(x) STR_HELPER(x)
 
-#ifndef GIT_COMMIT_HASH
-#define GIT_COMMIT_HASH Unknown
-#endif // GIT_COMMIT_HASH
+#ifndef GIT_COMMIT_HASH  // Correctly handle the case where GIT_COMMIT_HASH isn't defined
+#define GIT_COMMIT_HASH Unknown  // Provide a default if GIT_COMMIT_HASH is not available
+#endif
 
-#define FR_VERSION "1"]"
+#define FR_VERSION "KKK [" STR(GIT_COMMIT_HASH) "]"
 
 extern HWND g_hwnd;
 extern HMODULE g_module;
