@@ -2,7 +2,7 @@
 
 ImFont *font = 0;
 HHOOK oWndProc = 0;
-char song_name_u8[256] = "Freedom " FR_VERSION " is Loading!";
+char song_name_u8[256] = "SSS IS A NIGGER";
 
 extern LRESULT ImGui_ImplWin32_WndProcHandler(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam);
 LRESULT __stdcall WndProc(int code, WPARAM wparam, LPARAM lparam)
