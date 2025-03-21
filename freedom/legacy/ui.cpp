@@ -2,7 +2,7 @@
 
 ImFont *font = 0;
 HHOOK oWndProc = 0;
-char song_name_u8[256] = "SSS IS A NIGGER";
+char song_name_u8[256] = "KANEKI IS A NIGGER";
 
 extern LRESULT ImGui_ImplWin32_WndProcHandler(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam);
 LRESULT __stdcall WndProc(int code, WPARAM wparam, LPARAM lparam)
@@ -269,7 +269,7 @@ void update_ui()
     ImGui::PushFont(font);
 
     ImGui::SetNextWindowPos(ImVec2(0.0f, 0.0f), ImGuiCond_Once);
-    ImGui::Begin("Freedom", 0, ImGuiWindowFlags_NoTitleBar | ImGuiWindowFlags_AlwaysAutoResize);
+    ImGui::Begin("YOU'RE A BLACK NIGGER KANEKI", 0, ImGuiWindowFlags_NoTitleBar | ImGuiWindowFlags_AlwaysAutoResize);
 
     ImGui::Text("%s", song_name_u8);
 
@@ -564,16 +564,15 @@ void update_ui()
         }
         if (selected_tab == MenuTab::About)
         {
-            ImGui::Text("Ciremun's Freedom " FR_VERSION);
+            ImGui::Text("YOU'RE A BLACK NIGGER KANEKI");
             ImGui::Dummy(ImVec2(0.0f, 5.0f));
-            ImGui::Text("Special Thanks to Maple Syrup");
-            ImGui::Text("@mrflashstudio");
+            ImGui::Text("Special Thanks To The Slaves");
         }
         ImGui::End(); // tab_content
         ImGui::EndPopup();
     }
 
-    ImGui::End(); // freedom
+    ImGui::End(); // YOU'RE A BLACK NIGGER KANEKI
     ImGui::PopFont();
 }
 
