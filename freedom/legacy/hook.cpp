@@ -1,4 +1,5 @@
 #include <windows.h>
+#include "legacy/hook.h"
 #include <stdint.h>
 #include <memory.h> // for memcpy_s
 #include <intrin.h> // for __readcr0
